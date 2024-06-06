@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --color-yellow: #FFE500;
+    --color-green: #0CAF1D;
+    --color-back: #E8E8E8;
+    --color-bgrey: #636363;
+    --color-white: #FFF;
+    --color-lgrey: #D9D9D9;
+    --color-blue: #3483FA;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a, a:hover{
+    text-decoration: none;
+    color: unset;
+}
+
+body, html{
+    background-color: var(--color-back);
+    font-family: "Open Sans", sans-serif;
+    color: var(--color-bgrey);
+}
+
+.container{
+    max-width: 990px;
+    width: 100%;
+    margin: 0 auto; /*alinhar ao centro*/
+}
+
+/*CABEÇA DO SITE*/
+
+header{
+    background-color: var(--color-yellow);
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+}
+
+.container-img-nav{
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.container-img-nav img{
+    width: 20px;
+    height: 20px;
+}
+
+/*CORPO DO SITE*/
+
+#product-details{
+    padding: 20px 0;
+}
+
+.card{
+    background-color: var(--color-white);
+    border-radius: 4px;
+    border: 1px solid var(--color-lgrey);
+}
+
+.card-top {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid var(--color-lgrey);
+    border-radius: 4px 4px 0 0;
+}
+
+.card-bottom{
+    padding: 10px 20px 20px 20px;
+}
+
+.card-bottom h3{
+    color: var(--color-green);
+    font-size: 20px;
+}
+
+.card-bottom p{
+    padding: 10px 0;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.classificado-container{
+    display: flex;
+}
+
+.classificado{
+    padding: 0 20px;
+    background-color: var(--color-bgrey);
+    color: var(--color-white);
+    border-radius: 4px;
+    height: 30px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.mb20{
+    margin-bottom: 20px;
+}
+
+.buttom-container{
+    width: 200px;
+    display: grid;
+    grid-gap: 20px
+}
+
+.buttom{
+    border-radius: 4px;
+    height: 42px;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btm-top{
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
+
+.btm-bottom{
+    background-color: var(--color-white);
+    color: var(--color-blue);
+    border: 1px solid var(--color-blue);
+}
