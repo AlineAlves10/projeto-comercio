@@ -67,62 +67,21 @@ nav{
 
 /*CORPO DO SITE*/
 
-#product-details{
-    padding: 20px 0;
-}
-
 .card{
     background-color: var(--color-white);
     border-radius: 4px;
     border: 1px solid var(--color-lgrey);
 }
 
-.card-top {
-    padding: 10px;
-    display: flex;
-    justify-content: center;
+.line-bottom{
     border-bottom: 1px solid var(--color-lgrey);
-    border-radius: 4px 4px 0 0;
-}
-
-.card-bottom{
-    padding: 10px 20px 20px 20px;
-}
-
-.card-bottom h3{
-    color: var(--color-green);
-    font-size: 20px;
-}
-
-.card-bottom p{
-    padding: 10px 0;
-    font-size: 12px;
-    text-align: justify;
-}
-
-.classificado-container{
-    display: flex;
-}
-
-.classificado{
-    padding: 0 20px;
-    background-color: var(--color-bgrey);
-    color: var(--color-white);
-    border-radius: 4px;
-    height: 30px;
-    text-align: center;
-    font-size: 12px;
-    font-weight: 700;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 20px;
-    margin-top: 10px;
 }
 
 .mb20{
     margin-bottom: 20px;
 }
+
+/*botaos de baixo*/
 
 .buttom-container{
     width: 200px;
