@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSCommerce</title>
+    <link rel="stylesheet" href="css/styleADM.css">
+    <link rel="stylesheet" href="css/cadastro-produtosADM.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <h1>DSCommerce</h1>
+            <div class="nav-container">
+                <div class="container-img-nav">
+                    <a href="#"><img src="img/product (2).png" alt=""></a>
+                </div>
+                <a class="nav-titulos" href="#">Início</a>
+
+                <div class="container-img-nav">
+                    <a href="#"><img src="img/product (1).png" alt=""></a>
+                </div>
+                <a class="nav-titulos-principal" href="#">Produtos</a>
+
+                <div class="logged-user">
+                    <p>alex@gmail.com</p>
+                    <a href="#">Sair</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="cart-container" class="container">
+            <div class="card mb20">
+                    <form class="formulario-login">
+                        <h2>Dados do produto</h2>
+                        <div class="cadastro-inputs">
+                            <div>
+                                <input class="form-espaço" type="text" placeholder="Nome">
+                            </div>
+
+                           <div>
+                             <input class="form-espaço" type="text" placeholder="Preço">
+                           </div>
+
+                           <div>
+                            <input class="form-espaço" type="text" placeholder="Imagem">
+                          </div>
+
+                          <div>
+                            <select class="form-espaço select" required>
+                                <option value="" disabled selected>Categorias</option>
+                                <option value="1">Valor 1</option>
+                                <option value="2">Valor 2</option>
+                            </select>
+                          </div>
+
+                          <div>
+                            <textarea class="form-espaço-big" placeholder="Descrição"></textarea>
+                          </div>
+                            
+                            <div class="buttom-containerr">
+                                <button type="reset" class="buttom btm-bottom">Cancelar</button>
+                                <button type="submit" class="buttom btm-top">Salvar</button>
+                            </div>
+                        </div>
+                    </form>      
+        </section>
+    </main>
+</body>
+</html>
