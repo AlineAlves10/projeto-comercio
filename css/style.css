@@ -66,6 +66,20 @@ nav{
     height: 20px;
 }
 
+.logged-user p{
+    font-size: 16px;
+}
+
+.logged-user{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.logged-user a{
+    font-weight: 600;
+}
+
 /*CORPO DO SITE*/
 
 .card{
