@@ -9,10 +9,19 @@
     --color-blue: #3483FA;
 }
 
-.side-left img{
-    height: 70px;
-    width: 70px;
+#product-list-section{
+    padding: 20px 30px 20px 20px;
 }
 
-.sideleft
+.product-list-img{
+    height: 69px;
+    width: 69px;
+    margin-left: 5px;
+}
 
+.product-list-btn {
+    height: 20px;
+    width: auto;
+    cursor: pointer;
+    margin: 5px;
+}
