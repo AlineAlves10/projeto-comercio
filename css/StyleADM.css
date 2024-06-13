@@ -54,6 +54,10 @@ nav{
     align-items: center;
 }
 
+nav h1{
+    font-size: 18px;
+}
+
 .nav-container{
     display: flex;
     align-items: center;
@@ -79,6 +83,7 @@ nav{
 .container-img-nav img{
     width: 20px;
     height: 20px;
+    margin-right: 10px;
 }
 
 .logged-user{
@@ -94,6 +99,16 @@ nav{
 .logged-user a{
     font-weight: 600;
     font-size: 14px;
+}
+
+@media (min-width: 576px){
+    nav h1{
+        font-size: 24px;
+    }
+
+    .container-img-nav img{
+        margin-right: 0;
+    }
 }
 
 /*CORPO DO SITE---------------------------------------------*/

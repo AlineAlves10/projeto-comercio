@@ -49,6 +49,10 @@ nav{
     align-items: center;
 }
 
+nav h1{
+    font-size: 18px;
+}
+
 .nav-container{
     display: flex;
     align-items: center;
@@ -78,6 +82,12 @@ nav{
 
 .logged-user a{
     font-weight: 600;
+}
+
+@media (min-width: 579px){
+    nav h1{
+        font-size: 24px;
+    }
 }
 
 /*CORPO DO SITE*/
