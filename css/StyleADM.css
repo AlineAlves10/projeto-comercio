@@ -118,10 +118,17 @@ nav{
 
 .tittle-section-adm{
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
-
 }
+
+@media (min-width:576px){
+    .tittle-section-adm{
+        text-align: left;
+        font-size: 24px;
+    }
+}
+
 /*botaos de pesquisa-------------------------------------*/
 
 .search-main{
@@ -286,7 +293,7 @@ nav{
 }
 
 
-/*table de itens------------------------------------------------*/
+/*tabela de itens------------------------------------------------*/
 
 .table{
     width: 100%;
@@ -302,7 +309,7 @@ nav{
 
 .table tbody{
     background-color: var(--color-white);
-    font-size: 14px;
+    font-size: 13px;
     text-align: center;
 }
 
@@ -318,14 +325,47 @@ nav{
     display: none;
 }
 
+.table th:nth-child(2){
+    border-top-left-radius: 10px;
+}
+
+.table th:last-child{
+    border-top-right-radius: 10px;
+}
+
+.table td:last-child{
+    padding-right: 5px;
+}
+
+
+
 @media (min-width: 576px){
     .tb576{
         display: table-cell;
+    }
+
+    .table td:nth-child(1){
+        padding-left: 20px;
+    }
+
+    .table th:nth-child(2){
+        border-top-left-radius: 0px;
+    }
+
+    .table th:nth-child(1){
+        border-top-left-radius: 10px;
+        padding-left: 20px;
     }
 }
 
 @media (min-width: 768px){
     .tb768{
         display: table-cell;
+    }
+}
+
+@media (min-width: 962px){
+    .table tbody{
+        font-size: 16px;
     }
 }
